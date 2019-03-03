@@ -1,2 +1,33 @@
 findutils libtool which automake make qrencode protobuf-devel miniupnpc libdb4-cxx boost-devel openssl-devel libevent-devel qt5-qttools-devel qt5-qtbase
- 
+boost.mk	[depends] Boost 1.63.0	2 years ago
+dbus.mk	[depends] dbus 1.10.14	2 years ago
+expat.mk	[depends] expat 2.2.0	3 years ago
+fontconfig.mk	[depends] fontconfig 2.12.1	3 years ago
+freetype.mk	[depends] FreeType 2.7.1	2 years ago
+libICE.mk	depends: Add a package for qt4.6. Linux uses it by default.	4 years ago
+libSM.mk	depends: Add a package for qt4.6. Linux uses it by default.	4 years ago
+libX11.mk	depends: Use pic for all linux dependencies	4 years ago
+libXau.mk	depends: Use pic for all linux dependencies	4 years ago
+libXext.mk	depends: add shared dependency builder	5 years ago
+libevent.mk	[depends] Don't build libevent sample code	a year ago
+libxcb.mk	depends: fix a static qt5 crash when using certain versions of libxcb	4 years ago
+miniupnpc.mk	[depends] miniupnpc 2.0.20170509	2 years ago
+native_biplist.mk	build: fix non-deterministic biplist	3 years ago
+native_ccache.mk	[depends] ccache 3.3.3	2 years ago
+native_cctools.mk	depends: make osx output deterministic	2 years ago
+native_cdrkit.mk	Fix download link for gitian builds	4 years ago
+native_ds_store.mk	[depends] native_ds_store 1.1.0	2 years ago
+native_libdmg-hfsplus.mk	depends: add shared dependency builder	5 years ago
+native_mac_alias.mk	depends: mac deploy Py3 compatibility	3 years ago
+native_protobuf.mk	depends: bump protobuf to 2.6.1	4 years ago
+openssl.mk	[depends] OpenSSL 1.0.1k - update config_opts	3 years ago
+packages.mk	depends: add a zlib build	2 years ago
+protobuf.mk	depends: use c++11	3 years ago
+qrencode.mk	depends: bump qrencode to 3.4.4	4 years ago
+qt.mk	qt: fix build with zlib for target	2 years ago
+xcb_proto.mk	depends: Use pic for all linux dependencies	4 years ago
+xextproto.mk	depends: add shared dependency builder	5 years ago
+xproto.mk	depends: add shared dependency builder	5 years ago
+xtrans.mk	depends: Use pic for all linux dependencies	4 years ago
+zeromq.mk	[depends] ZeroMQ 4.1.5	3 years ago
+zlib.mk	depends: fix zlib build on osx

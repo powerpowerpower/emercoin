@@ -14,7 +14,6 @@ Requires:	miniupnpc
 Requires:	qt5-qtbase
 Requires:	protobuf
 Requires:	qrencode
-
 Requires:	libevent >= 2.1.8
 
 %description
