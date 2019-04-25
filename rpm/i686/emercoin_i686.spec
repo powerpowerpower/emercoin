@@ -1,5 +1,5 @@
 Name:           emercoin
-Version:        0.7.4
+Version:        0.7.5
 Release:        1%{?dist}
 Summary:        Emercoin wallet
 Vendor:         emercoin
@@ -13,7 +13,6 @@ Requires:	miniupnpc
 Requires:	qt5-qtbase
 Requires:	protobuf
 Requires:	qrencode
-
 Requires:	libevent >= 2.1.8
 
 %description
